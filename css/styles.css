@@ -516,6 +516,11 @@ img {
   transform: translateY(0%);
 }
 
+.offer-div {
+  position: relative;
+  overflow: hidden;
+}
+
 .header-style {
   border-bottom: 1px solid #e7e9fc;
   height: 72px;
