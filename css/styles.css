@@ -330,7 +330,6 @@ img {
   display: flex;
   gap: 200px;
   align-items: baseline;
-  height: 80px;
 }
 
 .container {
@@ -354,7 +353,6 @@ img {
 }
 
 .navigation-menu {
-  gap: 40px;
   padding: 24px 0 24px;
 
   color: var(--navy-blue);
@@ -368,8 +366,8 @@ img {
 .link-active::after {
   content: "";
   color: var(--iris);
-  position: relative;
-  bottom: -18px;
+  position: absolute;
+  bottom: -1px;
   display: block;
   width: 100%;
   height: 4px;
@@ -693,13 +691,13 @@ img {
 
 .icon-social-ul {
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
   list-style: none;
 }
 
 .footer-div {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .logo-div {
